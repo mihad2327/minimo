@@ -1,0 +1,63 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+/* font-family: "Playfair Display", serif;
+ font-family: "Ubuntu", sans-serif; */
+
+header{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 90%;
+
+margin-left: 5%;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+.logo{
+
+width: 20%;
+}
+nav{
+
+width: 50%;
+}
+header nav ul{
+
+display: flex;
+
+list-style: none;
+
+justify-content: end;
+}
+header nav ul li{
+
+margin-left: 30px;
+}
+header nav ul li a{
+
+text-decoration: none;
+
+color: #626262;
+
+text-transform: uppercase;
+font-family: "Playfair Display", serif;
+}
+.banner_section{
+
+width: 90%;
+
+margin-left: 5%;
+
+margin-right: 5%;
+}
+.banner_section img{
+    
+width: 100%;
+}
+
